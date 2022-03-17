@@ -3,7 +3,7 @@
   <div>
     <div class="container flow flex crew">
       <div id="content" v-if="technology">
-        <h1 class="numbered-title"><span>01</span> Space Launch 101</h1>
+        <h1 class="numbered-title"><span>03</span> Space Launch 101</h1>
         <img :src="technology['image-landscape'].guid" alt="Start-Foto" />
 
         <ul class="dot-indicators flex">
@@ -15,7 +15,7 @@
             {{ index + 1 }}
           </li>
         </ul>
-        <h3 class="terminology uppercase text-accent">The Terminology</h3>
+        <h5 class="terminology uppercase text-accent">The Terinology....</h5>
         <h1 class="technology uppercase ff-serif">
           {{ technology['technology-name'] }}
         </h1>
@@ -62,18 +62,18 @@ export default {
 <style scoped>
 .dot-indicators {
   list-style-type: none;
-  justify-content: center;
-  padding-top: 15px;
+  justify-content: left;
+  padding-top: 30px;
 }
 .terminology {
-  text-align: center;
+  text-align: left;
   padding-top: 10px;
 }
 .technology {
-  text-align: center;
-  padding-bottom: 10px;
+  text-align: left;
+  padding-bottom: 30px;
 }
 .description {
-  text-align: center;
+  text-align: left;
 }
 </style>
